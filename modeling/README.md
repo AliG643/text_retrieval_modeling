@@ -1,4 +1,4 @@
-# Retrieval Modeling (Ali Guo Scope)
+# Retrieval Modeling
 
 This module implements four retrieval methods over PubMed-style CSV input:
 
