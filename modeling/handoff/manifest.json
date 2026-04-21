@@ -1,0 +1,23 @@
+{
+  "run_dir": "E:\\nlp_project\\modeling\\outputs\\dev",
+  "models": [
+    "tfidf",
+    "bm25",
+    "scibert",
+    "sbert"
+  ],
+  "query_count_in_labels": 20,
+  "judged_pairs": 939,
+  "relevant_pairs": 461,
+  "ranked_files": {
+    "tfidf": "E:\\nlp_project\\modeling\\outputs\\dev\\tfidf\\tfidf_top20.csv",
+    "bm25": "E:\\nlp_project\\modeling\\outputs\\dev\\bm25\\bm25_top20.csv",
+    "scibert": "E:\\nlp_project\\modeling\\outputs\\dev\\scibert\\scibert_top20.csv",
+    "sbert": "E:\\nlp_project\\modeling\\outputs\\dev\\sbert\\sbert_top20.csv"
+  },
+  "artifacts": {
+    "labels": "relevance_labels.csv",
+    "notes": "HANDOFF_NOTES.md",
+    "run_log_if_exists": "run_log.jsonl"
+  }
+}

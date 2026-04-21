@@ -1,0 +1,35 @@
+project:
+  random_seed: 42
+  run_name: default_run
+
+paths:
+  corpus_csv: modeling/data/raw/pubmed_clean.csv
+  queries_csv: modeling/queries/queries.csv
+  processed_dir: modeling/data/processed
+  output_dir: modeling/outputs/default
+  embedding_cache_dir: modeling/cache/embeddings
+  run_log_path: modeling/outputs/default/run_log.jsonl
+
+retrieval:
+  top_k_values: [10, 20]
+  document_mode: title_abstract
+
+tfidf:
+  ngram_range: [1, 2]
+  min_df: 2
+  max_df: 0.95
+  use_idf: true
+  sublinear_tf: true
+  max_features: 50000
+
+bm25:
+  k1: 1.5
+  b: 0.75
+
+dense:
+  batch_size: 16
+  max_length: 384
+  pooling: mean
+  normalize_embeddings: true
+  scibert_model_name: allenai/scibert_scivocab_uncased
+  sbert_model_name: sentence-transformers/all-MiniLM-L6-v2

@@ -1,0 +1,21 @@
+query_id,query_text,topic_label
+Q1,retinal OCT biomarkers for Alzheimer's disease,alzheimers
+Q2,retinal thinning in Parkinson's disease,parkinsons
+Q3,optical coherence tomography and mild cognitive impairment,mci
+Q4,visual pathway changes in multiple sclerosis,ms
+Q5,retinal nerve fiber layer in Alzheimer's disease,alzheimers
+Q6,ganglion cell layer thinning in Parkinson's disease,parkinsons
+Q7,OCT markers in AD,alzheimers
+Q8,retinal changes in PD,parkinsons
+Q9,eye imaging indicators for early Alzheimer's detection,alzheimers
+Q10,biomarkers for cognitive decline using retinal imaging,mci
+Q11,OCT for early diagnosis of mild cognitive impairment,mci
+Q12,retinal biomarkers in neurodegenerative disease,broad
+Q13,visual biomarkers in dementia,broad
+Q14,optic coherence tomography in multiple sclerosis,ms
+Q15,retinal imaging for neurodegeneration,broad
+Q16,compare retinal biomarkers in Alzheimer's and Parkinson's disease,comparison
+Q17,compare OCT findings in MCI and Alzheimer's disease,comparison
+Q18,abnormal retinal layers in Parkinson's disease,parkinsons
+Q19,retinal structure changes associated with Alzheimer's disease,alzheimers
+Q20,ocular biomarkers for mild cognitive impairment,mci
